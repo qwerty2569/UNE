@@ -34,3 +34,24 @@ print(f"computadora {Computadora}")
 mazo[carta] -= 1
 
 print(mazo)
+
+descarte = {
+    '0' :0,
+    '1' : 0,
+    '2' : 0,
+    '3' : 0,
+    '4' : 0,
+    '5' : 0,
+    '6' : 0,
+    '7' : 0,
+    '8' : 0,
+    '9' : 0,
+    '+2' : 0,
+    '+4' : 0,
+    'reversa' : 0,
+    'comodin' : 0,
+}
+juego = input ("que cartas quieres jugar")
+descarte[juego] += 1
+
+print(descarte)
